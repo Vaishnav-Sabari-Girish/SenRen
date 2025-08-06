@@ -9,6 +9,24 @@ SenRen (線連) is a lightweight, command-driven LIDAR communication toolkit des
 SenRen lets you focus on scanning and analysis, combining technical power with a streamlined user experience.
 Simple. Connected. Fast.
 
+## How to Install 
+
+```bash 
+cargo install senren
+
+#OR 
+
+cargo binstall senren
+```
+
+### From Source 
+
+Clone the repo 
+
+```bash
+cargo run --release
+```
+
 ## How to Use 
 
 To scan for data use this 
