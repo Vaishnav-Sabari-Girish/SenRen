@@ -11,16 +11,6 @@ Simple. Connected. Fast.
 
 ## How to Install 
 
-```bash 
-cargo install senren
-
-#OR 
-
-cargo binstall senren
-```
-
-### From Source 
-
 Clone the repo 
 
 ```bash
