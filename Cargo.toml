@@ -2,5 +2,15 @@
 name = "senren"
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
+authors = ["Vaishnav Sabari Girish forgamesonly684@gmail.com"]
+description = "SenRen is a command-line LIDAR toolkit for robotics and prototyping, featuring fast monitoring, simulation, and real-time plotting. It supports both real and virtual LIDAR data, integrates seamlessly with ComChan for live serial visualization, and provides flexible export for advanced analysis—all without requiring any physical hardware. Perfect for testing, demonstration, and rapid development."
+readme = "README.md"
+homepage = "https://github.com/Vaishnav-Sabari-Girish/SenRen"
+repository = "https://github.com/Vaishnav-Sabari-Girish/SenRen"
+keywords = ["cli", "lidar"]
+categories = ["command-line-utilities", "embedded"]
 
 [dependencies]
+clap = { version = "4.5.42", features = ["derive"] }
+rand = "0.9.2"
